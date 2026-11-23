@@ -84,9 +84,6 @@ The dashboard works **without** the models. Every results page reads the small f
 The models are only needed for the **Trained models** page and for choosing a model on the **What-if analysis** page.
 Without them, the What-if page uses the CatBoost models included in `data/`.
 
-> Note: the models were trained in Google Colab with XGBoost 3.x. With an older XGBoost, the three regression models that
-> contain XGBoost (XGBoost, Averaging, Stacking) give slightly different live scores. Their official results in `data/` are correct.
-
 ## Project structure
 
 ```
@@ -100,9 +97,3 @@ Without them, the What-if page uses the CatBoost models included in `data/`.
 ├── model_inputs/        Test-set inputs and preprocessing objects for the trained models
 └── models/              Trained models (download from Google Drive, not in the repository)
 ```
-
-## Source
-
-Water level and rainfall data: Irrigation Department of Sri Lanka, hydrological reports.
-The models were trained and evaluated in Google Colab notebooks (preprocessing, bagging/boosting/stacking,
-RF + ANN, RF + ARIMA, and final evaluation).
