@@ -1,0 +1,125 @@
+{
+  "Persistence": {
+    "family": "Baseline",
+    "data": null,
+    "params": {}
+  },
+  "Ridge Regression": {
+    "family": "Baseline",
+    "data": "scaled",
+    "params": {
+      "alpha": "5.337"
+    }
+  },
+  "Decision Tree": {
+    "family": "Baseline",
+    "data": "imputed",
+    "params": {
+      "max_depth": "8",
+      "min_samples_leaf": "20"
+    }
+  },
+  "ANN (MLP)": {
+    "family": "ANN",
+    "data": "scaled",
+    "params": {
+      "layers": "(128, 64)",
+      "alpha": "0.001"
+    }
+  },
+  "Bagging (DT)": {
+    "family": "Bagging",
+    "data": "imputed",
+    "params": {
+      "max_samples": "1.0"
+    }
+  },
+  "Random Forest": {
+    "family": "Bagging",
+    "data": "imputed",
+    "params": {
+      "max_features": "sqrt",
+      "min_samples_leaf": "2"
+    }
+  },
+  "Extra Trees": {
+    "family": "Bagging",
+    "data": "imputed",
+    "params": {
+      "max_features": "1.0",
+      "min_samples_leaf": "2"
+    }
+  },
+  "AdaBoost": {
+    "family": "Boosting",
+    "data": "imputed",
+    "params": {
+      "depth": "4",
+      "learning_rate": "0.05"
+    }
+  },
+  "HistGradientBoosting": {
+    "family": "Boosting",
+    "data": "raw",
+    "params": {
+      "learning_rate": "0.05",
+      "max_leaf_nodes": "15"
+    }
+  },
+  "XGBoost": {
+    "family": "Boosting",
+    "data": "raw",
+    "params": {
+      "max_depth": "6",
+      "min_child_weight": "1"
+    }
+  },
+  "LightGBM": {
+    "family": "Boosting",
+    "data": "raw",
+    "params": {
+      "num_leaves": "15",
+      "min_child_samples": "50"
+    }
+  },
+  "CatBoost": {
+    "family": "Boosting",
+    "data": "raw",
+    "params": {
+      "learning_rate": "0.1"
+    }
+  },
+  "Stacking (non-neg LR)": {
+    "family": "Stacking",
+    "data": "imputed",
+    "params": {
+      "cv": "KFold(5, shuffle)"
+    }
+  },
+  "Averaging (Voting)": {
+    "family": "Stacking",
+    "data": "imputed",
+    "params": {}
+  },
+  "H1 RF+ANN residual": {
+    "family": "Hybrid",
+    "data": null,
+    "params": {
+      "ann_alpha": "0.01"
+    }
+  },
+  "H2 RF+ANN stacking": {
+    "family": "Hybrid",
+    "data": "imputed",
+    "params": {
+      "cv": "KFold(5, shuffle)"
+    }
+  },
+  "H3 RF+ANN blend": {
+    "family": "Hybrid",
+    "data": null,
+    "params": {
+      "w_rf": "0.65"
+    }
+  }
+}

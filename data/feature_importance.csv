@@ -1,0 +1,563 @@
+task,model,family,feature,importance
+clf,Random Forest,Bagging,station_id,0.00646582975313506
+clf,Random Forest,Bagging,basin_id,0.0030663082544136982
+clf,Random Forest,Bagging,rb_number,0.003026643854688054
+clf,Random Forest,Bagging,alert_level,0.003746890305154769
+clf,Random Forest,Bagging,minor_flood_level,0.0028789078700462716
+clf,Random Forest,Bagging,major_flood_level,0.003411616629646159
+clf,Random Forest,Bagging,water_level,0.01906544876612183
+clf,Random Forest,Bagging,level_prev_in_report,0.010113803181313843
+clf,Random Forest,Bagging,level_change_in_report,0.006987258514689746
+clf,Random Forest,Bagging,status,0.031135349257933504
+clf,Random Forest,Bagging,rainfall_24h_mm,0.04265360765143277
+clf,Random Forest,Bagging,rain_prev_day_mm,0.007352843782416383
+clf,Random Forest,Bagging,rain_3d_sum_mm,0.016464293911844032
+clf,Random Forest,Bagging,rain_7d_sum_mm,0.014321657994146104
+clf,Random Forest,Bagging,rain_days_observed_7d,0.009325864175087645
+clf,Random Forest,Bagging,hours_since_prev_obs,0.0011765569913774728
+clf,Random Forest,Bagging,level_lag1,0.006308973513020403
+clf,Random Forest,Bagging,level_lag2,0.004102773927490852
+clf,Random Forest,Bagging,level_lag3,0.004689367870706932
+clf,Random Forest,Bagging,level_diff_lag1,0.005114263232763924
+clf,Random Forest,Bagging,level_rate_lag1_m_per_h,0.00566024150610686
+clf,Random Forest,Bagging,level_24h_ago,0.00493437615918383
+clf,Random Forest,Bagging,level_change_24h,0.0054559289207785485
+clf,Random Forest,Bagging,level_max_24h,0.007416249384777597
+clf,Random Forest,Bagging,level_mean_24h,0.008346171643808258
+clf,Random Forest,Bagging,level_std_24h,0.00541995446274819
+clf,Random Forest,Bagging,level_max_72h,0.007995447231329956
+clf,Random Forest,Bagging,level_mean_72h,0.005798985442280084
+clf,Random Forest,Bagging,level_std_72h,0.007353474213886747
+clf,Random Forest,Bagging,n_obs_24h,0.0030087277775761763
+clf,Random Forest,Bagging,level_to_alert_ratio,0.19587409915822118
+clf,Random Forest,Bagging,level_to_major_ratio,0.05528655696525852
+clf,Random Forest,Bagging,margin_to_alert_m,0.12002455444690958
+clf,Random Forest,Bagging,margin_to_minor_m,0.03540110068655708
+clf,Random Forest,Bagging,margin_to_major_m,0.01866366285516452
+clf,Random Forest,Bagging,basin_rain_mean_mm,0.05910029192601915
+clf,Random Forest,Bagging,basin_rain_max_mm,0.04398019341493928
+clf,Random Forest,Bagging,basin_max_alert_ratio,0.1026403075750387
+clf,Random Forest,Bagging,basin_mean_level_change,0.009879983808689546
+clf,Random Forest,Bagging,national_stations_above_alert,0.004357599280269744
+clf,Random Forest,Bagging,national_rain_mean_mm,0.03338049332370918
+clf,Random Forest,Bagging,month,0.005383720222103563
+clf,Random Forest,Bagging,hour,0.001944103834155715
+clf,Random Forest,Bagging,doy_sin,0.012291811691694646
+clf,Random Forest,Bagging,doy_cos,0.010245661434882114
+clf,Random Forest,Bagging,trend_num,0.000303139624085993
+clf,Random Forest,Bagging,unit_is_ft,2.7324845614757285e-05
+clf,Random Forest,Bagging,level_range_72h,0.007948758424265973
+clf,Random Forest,Bagging,rain_intensity_3d,0.016069300052390278
+clf,Random Forest,Bagging,season_First_inter_monsoon,6.583012895894167e-07
+clf,Random Forest,Bagging,season_NE_monsoon,0.0004316820717147776
+clf,Random Forest,Bagging,season_SW_monsoon,0.0006348806266708375
+clf,Random Forest,Bagging,season_Second_inter_monsoon,0.0013898735346942095
+clf,Random Forest,Bagging,rainfall_24h_mm_was_missing,0.0002460474183061958
+clf,Random Forest,Bagging,rain_prev_day_mm_was_missing,0.0002751387359702593
+clf,Random Forest,Bagging,level_24h_ago_was_missing,0.0003389132639177785
+clf,Random Forest,Bagging,level_change_24h_was_missing,0.000366661418351298
+clf,Random Forest,Bagging,level_std_24h_was_missing,0.00012715610438027706
+clf,Random Forest,Bagging,basin_rain_mean_mm_was_missing,0.00018422559281267215
+clf,Random Forest,Bagging,basin_rain_max_mm_was_missing,0.00016833337823376422
+clf,Random Forest,Bagging,national_rain_mean_mm_was_missing,0.0002359498037830579
+clf,Extra Trees,Bagging,station_id,0.00708986489301133
+clf,Extra Trees,Bagging,basin_id,0.00681592593731708
+clf,Extra Trees,Bagging,rb_number,0.00663021952440763
+clf,Extra Trees,Bagging,alert_level,0.007387155125028661
+clf,Extra Trees,Bagging,minor_flood_level,0.006476474366938677
+clf,Extra Trees,Bagging,major_flood_level,0.005847944064433085
+clf,Extra Trees,Bagging,water_level,0.01840991224779134
+clf,Extra Trees,Bagging,level_prev_in_report,0.013361191698534758
+clf,Extra Trees,Bagging,level_change_in_report,0.005017365672218976
+clf,Extra Trees,Bagging,status,0.1089403651717343
+clf,Extra Trees,Bagging,rainfall_24h_mm,0.031160861402043803
+clf,Extra Trees,Bagging,rain_prev_day_mm,0.006617475727532695
+clf,Extra Trees,Bagging,rain_3d_sum_mm,0.019043336876384497
+clf,Extra Trees,Bagging,rain_7d_sum_mm,0.01676178606074276
+clf,Extra Trees,Bagging,rain_days_observed_7d,0.01242344109268487
+clf,Extra Trees,Bagging,hours_since_prev_obs,0.0021685987715373348
+clf,Extra Trees,Bagging,level_lag1,0.010323052855089299
+clf,Extra Trees,Bagging,level_lag2,0.007454739189425544
+clf,Extra Trees,Bagging,level_lag3,0.007949377904278219
+clf,Extra Trees,Bagging,level_diff_lag1,0.003319898256888792
+clf,Extra Trees,Bagging,level_rate_lag1_m_per_h,0.0037347394774095684
+clf,Extra Trees,Bagging,level_24h_ago,0.004393718435774956
+clf,Extra Trees,Bagging,level_change_24h,0.004822380946366493
+clf,Extra Trees,Bagging,level_max_24h,0.022743174705385106
+clf,Extra Trees,Bagging,level_mean_24h,0.013957728278727708
+clf,Extra Trees,Bagging,level_std_24h,0.0045513374385247815
+clf,Extra Trees,Bagging,level_max_72h,0.011258160355051505
+clf,Extra Trees,Bagging,level_mean_72h,0.008494984494748928
+clf,Extra Trees,Bagging,level_std_72h,0.012903684353021196
+clf,Extra Trees,Bagging,n_obs_24h,0.006102708233322556
+clf,Extra Trees,Bagging,level_to_alert_ratio,0.08907725647674077
+clf,Extra Trees,Bagging,level_to_major_ratio,0.053477086560413584
+clf,Extra Trees,Bagging,margin_to_alert_m,0.07336736419449588
+clf,Extra Trees,Bagging,margin_to_minor_m,0.038974349031988084
+clf,Extra Trees,Bagging,margin_to_major_m,0.02743288070780284
+clf,Extra Trees,Bagging,basin_rain_mean_mm,0.04756088969275272
+clf,Extra Trees,Bagging,basin_rain_max_mm,0.04498370634528274
+clf,Extra Trees,Bagging,basin_max_alert_ratio,0.07089930689274664
+clf,Extra Trees,Bagging,basin_mean_level_change,0.004722263932647927
+clf,Extra Trees,Bagging,national_stations_above_alert,0.01664610960763534
+clf,Extra Trees,Bagging,national_rain_mean_mm,0.031808440648393096
+clf,Extra Trees,Bagging,month,0.007706834085757406
+clf,Extra Trees,Bagging,hour,0.003076402806960361
+clf,Extra Trees,Bagging,doy_sin,0.013280018718118349
+clf,Extra Trees,Bagging,doy_cos,0.00804961108981283
+clf,Extra Trees,Bagging,trend_num,0.014836757591103658
+clf,Extra Trees,Bagging,unit_is_ft,0.000567317241013759
+clf,Extra Trees,Bagging,level_range_72h,0.0103939151536603
+clf,Extra Trees,Bagging,rain_intensity_3d,0.0187833445322583
+clf,Extra Trees,Bagging,season_First_inter_monsoon,7.751100345704223e-07
+clf,Extra Trees,Bagging,season_NE_monsoon,0.003377441668350423
+clf,Extra Trees,Bagging,season_SW_monsoon,0.0033800666794421047
+clf,Extra Trees,Bagging,season_Second_inter_monsoon,0.012048506642499462
+clf,Extra Trees,Bagging,rainfall_24h_mm_was_missing,0.0011542656474992188
+clf,Extra Trees,Bagging,rain_prev_day_mm_was_missing,0.001616398767561423
+clf,Extra Trees,Bagging,level_24h_ago_was_missing,0.0015250900685857462
+clf,Extra Trees,Bagging,level_change_24h_was_missing,0.0015603306839929237
+clf,Extra Trees,Bagging,level_std_24h_was_missing,0.0010677449117286015
+clf,Extra Trees,Bagging,basin_rain_mean_mm_was_missing,0.0008230496512076713
+clf,Extra Trees,Bagging,basin_rain_max_mm_was_missing,0.0007615494015340473
+clf,Extra Trees,Bagging,national_rain_mean_mm_was_missing,0.0008793219016227712
+clf,XGBoost,Boosting,station_id,0.014394102618098259
+clf,XGBoost,Boosting,basin_id,0.010993356816470623
+clf,XGBoost,Boosting,rb_number,0.0021674868185073137
+clf,XGBoost,Boosting,alert_level,0.010797355324029922
+clf,XGBoost,Boosting,minor_flood_level,0.005234674550592899
+clf,XGBoost,Boosting,major_flood_level,0.007871423847973347
+clf,XGBoost,Boosting,water_level,0.006580635905265808
+clf,XGBoost,Boosting,level_prev_in_report,0.005620595533400774
+clf,XGBoost,Boosting,level_change_in_report,0.009075149893760681
+clf,XGBoost,Boosting,status,0.04441415145993233
+clf,XGBoost,Boosting,rainfall_24h_mm,0.017252260819077492
+clf,XGBoost,Boosting,rain_prev_day_mm,0.00602345634251833
+clf,XGBoost,Boosting,rain_3d_sum_mm,0.011102327145636082
+clf,XGBoost,Boosting,rain_7d_sum_mm,0.013583955354988575
+clf,XGBoost,Boosting,rain_days_observed_7d,0.01621081493794918
+clf,XGBoost,Boosting,hours_since_prev_obs,0.0032849926501512527
+clf,XGBoost,Boosting,level_lag1,0.005115444306284189
+clf,XGBoost,Boosting,level_lag2,0.005929494742304087
+clf,XGBoost,Boosting,level_lag3,0.006385878659784794
+clf,XGBoost,Boosting,level_diff_lag1,0.003975609317421913
+clf,XGBoost,Boosting,level_rate_lag1_m_per_h,0.0052057611756026745
+clf,XGBoost,Boosting,level_24h_ago,0.006626021582633257
+clf,XGBoost,Boosting,level_change_24h,0.004846382420510054
+clf,XGBoost,Boosting,level_max_24h,0.009687194600701332
+clf,XGBoost,Boosting,level_mean_24h,0.007733543869107962
+clf,XGBoost,Boosting,level_std_24h,0.00403546541929245
+clf,XGBoost,Boosting,level_max_72h,0.00965802650898695
+clf,XGBoost,Boosting,level_mean_72h,0.008677816949784756
+clf,XGBoost,Boosting,level_std_72h,0.006421141792088747
+clf,XGBoost,Boosting,n_obs_24h,0.007277066819369793
+clf,XGBoost,Boosting,level_to_alert_ratio,0.3862318992614746
+clf,XGBoost,Boosting,level_to_major_ratio,0.00705188512802124
+clf,XGBoost,Boosting,margin_to_alert_m,0.055760324001312256
+clf,XGBoost,Boosting,margin_to_minor_m,0.005317389499396086
+clf,XGBoost,Boosting,margin_to_major_m,0.004342522472143173
+clf,XGBoost,Boosting,basin_rain_mean_mm,0.09599431604146957
+clf,XGBoost,Boosting,basin_rain_max_mm,0.02237989753484726
+clf,XGBoost,Boosting,basin_max_alert_ratio,0.007611960172653198
+clf,XGBoost,Boosting,basin_mean_level_change,0.008589725010097027
+clf,XGBoost,Boosting,national_stations_above_alert,0.005316886119544506
+clf,XGBoost,Boosting,national_rain_mean_mm,0.023451585322618484
+clf,XGBoost,Boosting,month,0.020088672637939453
+clf,XGBoost,Boosting,hour,0.004929012153297663
+clf,XGBoost,Boosting,doy_sin,0.013821473345160484
+clf,XGBoost,Boosting,doy_cos,0.012098127976059914
+clf,XGBoost,Boosting,trend_num,0.0033106503542512655
+clf,XGBoost,Boosting,unit_is_ft,0.0
+clf,XGBoost,Boosting,level_range_72h,0.007028644438832998
+clf,XGBoost,Boosting,rain_intensity_3d,0.007830716669559479
+clf,XGBoost,Boosting,season_First_inter_monsoon,0.0
+clf,XGBoost,Boosting,season_NE_monsoon,0.00874435342848301
+clf,XGBoost,Boosting,season_SW_monsoon,0.0
+clf,XGBoost,Boosting,season_Second_inter_monsoon,0.02391836792230606
+clf,LightGBM,Boosting,station_id,0.02825
+clf,LightGBM,Boosting,basin_id,0.0036666666666666666
+clf,LightGBM,Boosting,rb_number,0.00025
+clf,LightGBM,Boosting,alert_level,0.0085
+clf,LightGBM,Boosting,minor_flood_level,0.008916666666666666
+clf,LightGBM,Boosting,major_flood_level,0.010333333333333333
+clf,LightGBM,Boosting,water_level,0.008333333333333333
+clf,LightGBM,Boosting,level_prev_in_report,0.0145
+clf,LightGBM,Boosting,level_change_in_report,0.027
+clf,LightGBM,Boosting,status,0.0008333333333333334
+clf,LightGBM,Boosting,rainfall_24h_mm,0.0355
+clf,LightGBM,Boosting,rain_prev_day_mm,0.03925
+clf,LightGBM,Boosting,rain_3d_sum_mm,0.026083333333333333
+clf,LightGBM,Boosting,rain_7d_sum_mm,0.033666666666666664
+clf,LightGBM,Boosting,rain_days_observed_7d,0.011083333333333334
+clf,LightGBM,Boosting,hours_since_prev_obs,0.0035
+clf,LightGBM,Boosting,level_lag1,0.00925
+clf,LightGBM,Boosting,level_lag2,0.015333333333333332
+clf,LightGBM,Boosting,level_lag3,0.02275
+clf,LightGBM,Boosting,level_diff_lag1,0.023
+clf,LightGBM,Boosting,level_rate_lag1_m_per_h,0.019
+clf,LightGBM,Boosting,level_24h_ago,0.03308333333333333
+clf,LightGBM,Boosting,level_change_24h,0.029333333333333333
+clf,LightGBM,Boosting,level_max_24h,0.010833333333333334
+clf,LightGBM,Boosting,level_mean_24h,0.014333333333333333
+clf,LightGBM,Boosting,level_std_24h,0.031
+clf,LightGBM,Boosting,level_max_72h,0.017166666666666667
+clf,LightGBM,Boosting,level_mean_72h,0.025916666666666668
+clf,LightGBM,Boosting,level_std_72h,0.03175
+clf,LightGBM,Boosting,n_obs_24h,0.011083333333333334
+clf,LightGBM,Boosting,level_to_alert_ratio,0.035666666666666666
+clf,LightGBM,Boosting,level_to_major_ratio,0.019916666666666666
+clf,LightGBM,Boosting,margin_to_alert_m,0.03525
+clf,LightGBM,Boosting,margin_to_minor_m,0.02575
+clf,LightGBM,Boosting,margin_to_major_m,0.025583333333333333
+clf,LightGBM,Boosting,basin_rain_mean_mm,0.035833333333333335
+clf,LightGBM,Boosting,basin_rain_max_mm,0.03141666666666667
+clf,LightGBM,Boosting,basin_max_alert_ratio,0.03675
+clf,LightGBM,Boosting,basin_mean_level_change,0.03133333333333333
+clf,LightGBM,Boosting,national_stations_above_alert,0.015333333333333332
+clf,LightGBM,Boosting,national_rain_mean_mm,0.028
+clf,LightGBM,Boosting,month,0.004083333333333333
+clf,LightGBM,Boosting,hour,0.013
+clf,LightGBM,Boosting,doy_sin,0.03725
+clf,LightGBM,Boosting,doy_cos,0.02725
+clf,LightGBM,Boosting,trend_num,0.00625
+clf,LightGBM,Boosting,unit_is_ft,0.0
+clf,LightGBM,Boosting,level_range_72h,0.030583333333333334
+clf,LightGBM,Boosting,rain_intensity_3d,0.005916666666666666
+clf,LightGBM,Boosting,season_First_inter_monsoon,0.0
+clf,LightGBM,Boosting,season_NE_monsoon,0.0005
+clf,LightGBM,Boosting,season_SW_monsoon,8.333333333333333e-05
+clf,LightGBM,Boosting,season_Second_inter_monsoon,0.00075
+clf,CatBoost,Boosting,station_id,0.02819875627293556
+clf,CatBoost,Boosting,basin_id,0.009498074242712108
+clf,CatBoost,Boosting,rb_number,0.014779623674192652
+clf,CatBoost,Boosting,alert_level,0.01881983559857386
+clf,CatBoost,Boosting,minor_flood_level,0.013898100820165942
+clf,CatBoost,Boosting,major_flood_level,0.01239404584795948
+clf,CatBoost,Boosting,water_level,0.010377084178321897
+clf,CatBoost,Boosting,level_prev_in_report,0.011696573465283923
+clf,CatBoost,Boosting,level_change_in_report,0.01233495892656007
+clf,CatBoost,Boosting,status,0.03102741789552464
+clf,CatBoost,Boosting,rainfall_24h_mm,0.033768090399032134
+clf,CatBoost,Boosting,rain_prev_day_mm,0.015103377704811674
+clf,CatBoost,Boosting,rain_3d_sum_mm,0.015718736990175616
+clf,CatBoost,Boosting,rain_7d_sum_mm,0.026737959085940673
+clf,CatBoost,Boosting,rain_days_observed_7d,0.02846264666165413
+clf,CatBoost,Boosting,hours_since_prev_obs,0.003749289173785707
+clf,CatBoost,Boosting,level_lag1,0.005438608939784502
+clf,CatBoost,Boosting,level_lag2,0.003845783841828548
+clf,CatBoost,Boosting,level_lag3,0.010335859829742477
+clf,CatBoost,Boosting,level_diff_lag1,0.0033282421455277434
+clf,CatBoost,Boosting,level_rate_lag1_m_per_h,0.005263190259524098
+clf,CatBoost,Boosting,level_24h_ago,0.013765697064332191
+clf,CatBoost,Boosting,level_change_24h,0.006199301153420325
+clf,CatBoost,Boosting,level_max_24h,0.018832363858351988
+clf,CatBoost,Boosting,level_mean_24h,0.009115841981646005
+clf,CatBoost,Boosting,level_std_24h,0.007568584068817521
+clf,CatBoost,Boosting,level_max_72h,0.016527785048845323
+clf,CatBoost,Boosting,level_mean_72h,0.015815890909285632
+clf,CatBoost,Boosting,level_std_72h,0.009561474702346341
+clf,CatBoost,Boosting,n_obs_24h,0.01675565916409382
+clf,CatBoost,Boosting,level_to_alert_ratio,0.08171223660105885
+clf,CatBoost,Boosting,level_to_major_ratio,0.02128902112036015
+clf,CatBoost,Boosting,margin_to_alert_m,0.07002249543968042
+clf,CatBoost,Boosting,margin_to_minor_m,0.023259976021290964
+clf,CatBoost,Boosting,margin_to_major_m,0.015481168494413887
+clf,CatBoost,Boosting,basin_rain_mean_mm,0.041121617028534625
+clf,CatBoost,Boosting,basin_rain_max_mm,0.03370539070292485
+clf,CatBoost,Boosting,basin_max_alert_ratio,0.029898809157339775
+clf,CatBoost,Boosting,basin_mean_level_change,0.021236499657811065
+clf,CatBoost,Boosting,national_stations_above_alert,0.01819930220207102
+clf,CatBoost,Boosting,national_rain_mean_mm,0.04269492183660291
+clf,CatBoost,Boosting,month,0.033501632024814994
+clf,CatBoost,Boosting,hour,0.005749830554984655
+clf,CatBoost,Boosting,doy_sin,0.04785369428213998
+clf,CatBoost,Boosting,doy_cos,0.03862561007228661
+clf,CatBoost,Boosting,trend_num,0.006181955340559053
+clf,CatBoost,Boosting,unit_is_ft,0.0
+clf,CatBoost,Boosting,level_range_72h,0.011215070612885309
+clf,CatBoost,Boosting,rain_intensity_3d,0.014021584366624427
+clf,CatBoost,Boosting,season_First_inter_monsoon,0.00015310866518725033
+clf,CatBoost,Boosting,season_NE_monsoon,0.002030901885352398
+clf,CatBoost,Boosting,season_SW_monsoon,0.0029030286877325365
+clf,CatBoost,Boosting,season_Second_inter_monsoon,0.010223291340167476
+reg,Random Forest,Bagging,station_id,0.012556334095471149
+reg,Random Forest,Bagging,basin_id,0.009011213685598977
+reg,Random Forest,Bagging,rb_number,0.008827486217723668
+reg,Random Forest,Bagging,alert_level,0.010932335195248662
+reg,Random Forest,Bagging,minor_flood_level,0.011476799679918244
+reg,Random Forest,Bagging,major_flood_level,0.011763006543944396
+reg,Random Forest,Bagging,water_level,0.021809040923636332
+reg,Random Forest,Bagging,level_prev_in_report,0.02417783680781484
+reg,Random Forest,Bagging,level_change_in_report,0.02113229219646538
+reg,Random Forest,Bagging,status,0.006189141251894386
+reg,Random Forest,Bagging,rainfall_24h_mm,0.04972135944902982
+reg,Random Forest,Bagging,rain_prev_day_mm,0.014442840740201935
+reg,Random Forest,Bagging,rain_3d_sum_mm,0.017778711657009033
+reg,Random Forest,Bagging,rain_7d_sum_mm,0.01701001461939767
+reg,Random Forest,Bagging,rain_days_observed_7d,0.004629270220283716
+reg,Random Forest,Bagging,hours_since_prev_obs,0.00240125856715345
+reg,Random Forest,Bagging,level_lag1,0.019115685099999037
+reg,Random Forest,Bagging,level_lag2,0.015092825289946052
+reg,Random Forest,Bagging,level_lag3,0.01665329733752847
+reg,Random Forest,Bagging,level_diff_lag1,0.017091978251043714
+reg,Random Forest,Bagging,level_rate_lag1_m_per_h,0.0201306812197726
+reg,Random Forest,Bagging,level_24h_ago,0.01476790124682212
+reg,Random Forest,Bagging,level_change_24h,0.025094277876992924
+reg,Random Forest,Bagging,level_max_24h,0.023584269527407872
+reg,Random Forest,Bagging,level_mean_24h,0.022324501417108646
+reg,Random Forest,Bagging,level_std_24h,0.024436567617568107
+reg,Random Forest,Bagging,level_max_72h,0.015616558344019224
+reg,Random Forest,Bagging,level_mean_72h,0.01763882837601156
+reg,Random Forest,Bagging,level_std_72h,0.03578760500587465
+reg,Random Forest,Bagging,n_obs_24h,0.006498475482772799
+reg,Random Forest,Bagging,level_to_alert_ratio,0.03881182874881945
+reg,Random Forest,Bagging,level_to_major_ratio,0.030000848910737656
+reg,Random Forest,Bagging,margin_to_alert_m,0.029751345390760017
+reg,Random Forest,Bagging,margin_to_minor_m,0.024168663801839116
+reg,Random Forest,Bagging,margin_to_major_m,0.026163877761666236
+reg,Random Forest,Bagging,basin_rain_mean_mm,0.06584434184910123
+reg,Random Forest,Bagging,basin_rain_max_mm,0.046787226095427285
+reg,Random Forest,Bagging,basin_max_alert_ratio,0.024538849859880574
+reg,Random Forest,Bagging,basin_mean_level_change,0.021887570455020343
+reg,Random Forest,Bagging,national_stations_above_alert,0.012075562369744417
+reg,Random Forest,Bagging,national_rain_mean_mm,0.04191252376517263
+reg,Random Forest,Bagging,month,0.006650764356208452
+reg,Random Forest,Bagging,hour,0.0056614907715420975
+reg,Random Forest,Bagging,doy_sin,0.016163373682869908
+reg,Random Forest,Bagging,doy_cos,0.0167683449714156
+reg,Random Forest,Bagging,trend_num,0.024851690529039412
+reg,Random Forest,Bagging,unit_is_ft,3.4959685388498115e-05
+reg,Random Forest,Bagging,level_range_72h,0.020258599154897583
+reg,Random Forest,Bagging,rain_intensity_3d,0.018039756151693894
+reg,Random Forest,Bagging,season_First_inter_monsoon,1.6775397839298256e-05
+reg,Random Forest,Bagging,season_NE_monsoon,0.001165602710732513
+reg,Random Forest,Bagging,season_SW_monsoon,0.0015042485652467079
+reg,Random Forest,Bagging,season_Second_inter_monsoon,0.0033687584711936764
+reg,Random Forest,Bagging,rainfall_24h_mm_was_missing,0.0008386348891631599
+reg,Random Forest,Bagging,rain_prev_day_mm_was_missing,0.0006277382570602326
+reg,Random Forest,Bagging,level_24h_ago_was_missing,0.0009081640335576455
+reg,Random Forest,Bagging,level_change_24h_was_missing,0.0009338530814603057
+reg,Random Forest,Bagging,level_std_24h_was_missing,0.0004306723892580637
+reg,Random Forest,Bagging,basin_rain_mean_mm_was_missing,0.0008425636378774553
+reg,Random Forest,Bagging,basin_rain_max_mm_was_missing,0.0007771940627305248
+reg,Random Forest,Bagging,national_rain_mean_mm_was_missing,0.0005217822489964206
+reg,Extra Trees,Bagging,station_id,0.014597421382676588
+reg,Extra Trees,Bagging,basin_id,0.013605268976505287
+reg,Extra Trees,Bagging,rb_number,0.013597672985132281
+reg,Extra Trees,Bagging,alert_level,0.011739414935554828
+reg,Extra Trees,Bagging,minor_flood_level,0.01248000956279638
+reg,Extra Trees,Bagging,major_flood_level,0.013765785086731116
+reg,Extra Trees,Bagging,water_level,0.016018927568092086
+reg,Extra Trees,Bagging,level_prev_in_report,0.01709080183008529
+reg,Extra Trees,Bagging,level_change_in_report,0.011402226306003684
+reg,Extra Trees,Bagging,status,0.014810401405301401
+reg,Extra Trees,Bagging,rainfall_24h_mm,0.04097721105342864
+reg,Extra Trees,Bagging,rain_prev_day_mm,0.016362487012239142
+reg,Extra Trees,Bagging,rain_3d_sum_mm,0.01164197545057306
+reg,Extra Trees,Bagging,rain_7d_sum_mm,0.014615419482909902
+reg,Extra Trees,Bagging,rain_days_observed_7d,0.009805681366334631
+reg,Extra Trees,Bagging,hours_since_prev_obs,0.004189865253541895
+reg,Extra Trees,Bagging,level_lag1,0.012649037069922524
+reg,Extra Trees,Bagging,level_lag2,0.009649457491821308
+reg,Extra Trees,Bagging,level_lag3,0.011333600262002082
+reg,Extra Trees,Bagging,level_diff_lag1,0.010793721865753485
+reg,Extra Trees,Bagging,level_rate_lag1_m_per_h,0.011868673391939788
+reg,Extra Trees,Bagging,level_24h_ago,0.011333379557792952
+reg,Extra Trees,Bagging,level_change_24h,0.028452862221365616
+reg,Extra Trees,Bagging,level_max_24h,0.016532062942961806
+reg,Extra Trees,Bagging,level_mean_24h,0.014551687833233625
+reg,Extra Trees,Bagging,level_std_24h,0.027286545404181985
+reg,Extra Trees,Bagging,level_max_72h,0.012076294524256945
+reg,Extra Trees,Bagging,level_mean_72h,0.011012304708916698
+reg,Extra Trees,Bagging,level_std_72h,0.03467923450786235
+reg,Extra Trees,Bagging,n_obs_24h,0.011626077685241414
+reg,Extra Trees,Bagging,level_to_alert_ratio,0.02364679973740181
+reg,Extra Trees,Bagging,level_to_major_ratio,0.026150619511072896
+reg,Extra Trees,Bagging,margin_to_alert_m,0.021213966278308214
+reg,Extra Trees,Bagging,margin_to_minor_m,0.022600341125485587
+reg,Extra Trees,Bagging,margin_to_major_m,0.026758568441527585
+reg,Extra Trees,Bagging,basin_rain_mean_mm,0.07359588539989746
+reg,Extra Trees,Bagging,basin_rain_max_mm,0.04508153495688076
+reg,Extra Trees,Bagging,basin_max_alert_ratio,0.020715738480695786
+reg,Extra Trees,Bagging,basin_mean_level_change,0.011766120064265336
+reg,Extra Trees,Bagging,national_stations_above_alert,0.015373416591293985
+reg,Extra Trees,Bagging,national_rain_mean_mm,0.06301900233488704
+reg,Extra Trees,Bagging,month,0.007369708032993809
+reg,Extra Trees,Bagging,hour,0.012093305447302005
+reg,Extra Trees,Bagging,doy_sin,0.011502200032165812
+reg,Extra Trees,Bagging,doy_cos,0.010019561124994891
+reg,Extra Trees,Bagging,trend_num,0.0803558521617383
+reg,Extra Trees,Bagging,unit_is_ft,7.832559621737116e-05
+reg,Extra Trees,Bagging,level_range_72h,0.0218307928613247
+reg,Extra Trees,Bagging,rain_intensity_3d,0.011908084842121915
+reg,Extra Trees,Bagging,season_First_inter_monsoon,4.488289986374662e-05
+reg,Extra Trees,Bagging,season_NE_monsoon,0.005051281683815582
+reg,Extra Trees,Bagging,season_SW_monsoon,0.004667567829773366
+reg,Extra Trees,Bagging,season_Second_inter_monsoon,0.006401576962098397
+reg,Extra Trees,Bagging,rainfall_24h_mm_was_missing,0.0026440261314950356
+reg,Extra Trees,Bagging,rain_prev_day_mm_was_missing,0.0031486745451483355
+reg,Extra Trees,Bagging,level_24h_ago_was_missing,0.002423145877232461
+reg,Extra Trees,Bagging,level_change_24h_was_missing,0.0024390261306915227
+reg,Extra Trees,Bagging,level_std_24h_was_missing,0.0016278617484513454
+reg,Extra Trees,Bagging,basin_rain_mean_mm_was_missing,0.0023931255626913877
+reg,Extra Trees,Bagging,basin_rain_max_mm_was_missing,0.0027819716267011942
+reg,Extra Trees,Bagging,national_rain_mean_mm_was_missing,0.0007515268563039131
+reg,XGBoost,Boosting,station_id,0.011162275448441505
+reg,XGBoost,Boosting,basin_id,0.006936561316251755
+reg,XGBoost,Boosting,rb_number,0.002842202316969633
+reg,XGBoost,Boosting,alert_level,0.013436900451779366
+reg,XGBoost,Boosting,minor_flood_level,0.01866050995886326
+reg,XGBoost,Boosting,major_flood_level,0.011982965283095837
+reg,XGBoost,Boosting,water_level,0.009993270970880985
+reg,XGBoost,Boosting,level_prev_in_report,0.011055137030780315
+reg,XGBoost,Boosting,level_change_in_report,0.011394164524972439
+reg,XGBoost,Boosting,status,0.04593518003821373
+reg,XGBoost,Boosting,rainfall_24h_mm,0.013780126348137856
+reg,XGBoost,Boosting,rain_prev_day_mm,0.008243837393820286
+reg,XGBoost,Boosting,rain_3d_sum_mm,0.008097349666059017
+reg,XGBoost,Boosting,rain_7d_sum_mm,0.011849586851894855
+reg,XGBoost,Boosting,rain_days_observed_7d,0.011835360899567604
+reg,XGBoost,Boosting,hours_since_prev_obs,0.005662514828145504
+reg,XGBoost,Boosting,level_lag1,0.008487132377922535
+reg,XGBoost,Boosting,level_lag2,0.006866284180432558
+reg,XGBoost,Boosting,level_lag3,0.008641211315989494
+reg,XGBoost,Boosting,level_diff_lag1,0.007496672682464123
+reg,XGBoost,Boosting,level_rate_lag1_m_per_h,0.01159277930855751
+reg,XGBoost,Boosting,level_24h_ago,0.007616083137691021
+reg,XGBoost,Boosting,level_change_24h,0.013363564386963844
+reg,XGBoost,Boosting,level_max_24h,0.022793428972363472
+reg,XGBoost,Boosting,level_mean_24h,0.010259079746901989
+reg,XGBoost,Boosting,level_std_24h,0.012546068988740444
+reg,XGBoost,Boosting,level_max_72h,0.00910098385065794
+reg,XGBoost,Boosting,level_mean_72h,0.008543393574655056
+reg,XGBoost,Boosting,level_std_72h,0.016420867294073105
+reg,XGBoost,Boosting,n_obs_24h,0.007269255351275206
+reg,XGBoost,Boosting,level_to_alert_ratio,0.042147036641836166
+reg,XGBoost,Boosting,level_to_major_ratio,0.021732887253165245
+reg,XGBoost,Boosting,margin_to_alert_m,0.014352773316204548
+reg,XGBoost,Boosting,margin_to_minor_m,0.014285875484347343
+reg,XGBoost,Boosting,margin_to_major_m,0.01673455536365509
+reg,XGBoost,Boosting,basin_rain_mean_mm,0.047163642942905426
+reg,XGBoost,Boosting,basin_rain_max_mm,0.018498409539461136
+reg,XGBoost,Boosting,basin_max_alert_ratio,0.012441687285900116
+reg,XGBoost,Boosting,basin_mean_level_change,0.010661516338586807
+reg,XGBoost,Boosting,national_stations_above_alert,0.008101026527583599
+reg,XGBoost,Boosting,national_rain_mean_mm,0.01990838162600994
+reg,XGBoost,Boosting,month,0.010180994868278503
+reg,XGBoost,Boosting,hour,0.006310703232884407
+reg,XGBoost,Boosting,doy_sin,0.012128019705414772
+reg,XGBoost,Boosting,doy_cos,0.010313024744391441
+reg,XGBoost,Boosting,trend_num,0.34478431940078735
+reg,XGBoost,Boosting,unit_is_ft,0.0
+reg,XGBoost,Boosting,level_range_72h,0.013546389527618885
+reg,XGBoost,Boosting,rain_intensity_3d,0.006359970662742853
+reg,XGBoost,Boosting,season_First_inter_monsoon,0.0
+reg,XGBoost,Boosting,season_NE_monsoon,0.005566456355154514
+reg,XGBoost,Boosting,season_SW_monsoon,0.0024182808119803667
+reg,XGBoost,Boosting,season_Second_inter_monsoon,0.00849921628832817
+reg,LightGBM,Boosting,station_id,0.030466666666666666
+reg,LightGBM,Boosting,basin_id,0.004
+reg,LightGBM,Boosting,rb_number,0.0006666666666666666
+reg,LightGBM,Boosting,alert_level,0.0138
+reg,LightGBM,Boosting,minor_flood_level,0.008133333333333333
+reg,LightGBM,Boosting,major_flood_level,0.010066666666666666
+reg,LightGBM,Boosting,water_level,0.012933333333333333
+reg,LightGBM,Boosting,level_prev_in_report,0.018266666666666667
+reg,LightGBM,Boosting,level_change_in_report,0.025533333333333335
+reg,LightGBM,Boosting,status,0.0003333333333333333
+reg,LightGBM,Boosting,rainfall_24h_mm,0.0396
+reg,LightGBM,Boosting,rain_prev_day_mm,0.034466666666666666
+reg,LightGBM,Boosting,rain_3d_sum_mm,0.027066666666666666
+reg,LightGBM,Boosting,rain_7d_sum_mm,0.029
+reg,LightGBM,Boosting,rain_days_observed_7d,0.008466666666666667
+reg,LightGBM,Boosting,hours_since_prev_obs,0.003266666666666667
+reg,LightGBM,Boosting,level_lag1,0.0178
+reg,LightGBM,Boosting,level_lag2,0.015066666666666667
+reg,LightGBM,Boosting,level_lag3,0.0212
+reg,LightGBM,Boosting,level_diff_lag1,0.022133333333333335
+reg,LightGBM,Boosting,level_rate_lag1_m_per_h,0.026266666666666667
+reg,LightGBM,Boosting,level_24h_ago,0.03166666666666667
+reg,LightGBM,Boosting,level_change_24h,0.03866666666666667
+reg,LightGBM,Boosting,level_max_24h,0.014066666666666667
+reg,LightGBM,Boosting,level_mean_24h,0.013066666666666667
+reg,LightGBM,Boosting,level_std_24h,0.03353333333333333
+reg,LightGBM,Boosting,level_max_72h,0.0198
+reg,LightGBM,Boosting,level_mean_72h,0.021466666666666665
+reg,LightGBM,Boosting,level_std_72h,0.032266666666666666
+reg,LightGBM,Boosting,n_obs_24h,0.0118
+reg,LightGBM,Boosting,level_to_alert_ratio,0.016466666666666668
+reg,LightGBM,Boosting,level_to_major_ratio,0.015733333333333332
+reg,LightGBM,Boosting,margin_to_alert_m,0.0254
+reg,LightGBM,Boosting,margin_to_minor_m,0.018466666666666666
+reg,LightGBM,Boosting,margin_to_major_m,0.024666666666666667
+reg,LightGBM,Boosting,basin_rain_mean_mm,0.03793333333333333
+reg,LightGBM,Boosting,basin_rain_max_mm,0.035866666666666665
+reg,LightGBM,Boosting,basin_max_alert_ratio,0.032733333333333337
+reg,LightGBM,Boosting,basin_mean_level_change,0.03506666666666667
+reg,LightGBM,Boosting,national_stations_above_alert,0.014266666666666667
+reg,LightGBM,Boosting,national_rain_mean_mm,0.038066666666666665
+reg,LightGBM,Boosting,month,0.005
+reg,LightGBM,Boosting,hour,0.015733333333333332
+reg,LightGBM,Boosting,doy_sin,0.0336
+reg,LightGBM,Boosting,doy_cos,0.028066666666666667
+reg,LightGBM,Boosting,trend_num,0.004333333333333333
+reg,LightGBM,Boosting,unit_is_ft,0.0
+reg,LightGBM,Boosting,level_range_72h,0.0264
+reg,LightGBM,Boosting,rain_intensity_3d,0.005666666666666667
+reg,LightGBM,Boosting,season_First_inter_monsoon,0.0
+reg,LightGBM,Boosting,season_NE_monsoon,0.00013333333333333334
+reg,LightGBM,Boosting,season_SW_monsoon,0.0002666666666666667
+reg,LightGBM,Boosting,season_Second_inter_monsoon,0.0012666666666666666
+reg,CatBoost,Boosting,station_id,0.02181698174642946
+reg,CatBoost,Boosting,basin_id,0.014791990268327025
+reg,CatBoost,Boosting,rb_number,0.010940959771548528
+reg,CatBoost,Boosting,alert_level,0.015649172417797664
+reg,CatBoost,Boosting,minor_flood_level,0.01490537989513939
+reg,CatBoost,Boosting,major_flood_level,0.01876436886187962
+reg,CatBoost,Boosting,water_level,0.009984245521161238
+reg,CatBoost,Boosting,level_prev_in_report,0.009956725378323348
+reg,CatBoost,Boosting,level_change_in_report,0.02004783253138197
+reg,CatBoost,Boosting,status,0.0013815923057028635
+reg,CatBoost,Boosting,rainfall_24h_mm,0.0511352714080568
+reg,CatBoost,Boosting,rain_prev_day_mm,0.014803678607920753
+reg,CatBoost,Boosting,rain_3d_sum_mm,0.009288514723122702
+reg,CatBoost,Boosting,rain_7d_sum_mm,0.014928069828630158
+reg,CatBoost,Boosting,rain_days_observed_7d,0.012068075915213772
+reg,CatBoost,Boosting,hours_since_prev_obs,0.0032813404315698586
+reg,CatBoost,Boosting,level_lag1,0.008200001900419397
+reg,CatBoost,Boosting,level_lag2,0.007276708755397974
+reg,CatBoost,Boosting,level_lag3,0.008961756457816692
+reg,CatBoost,Boosting,level_diff_lag1,0.014368351384936391
+reg,CatBoost,Boosting,level_rate_lag1_m_per_h,0.02164283055693578
+reg,CatBoost,Boosting,level_24h_ago,0.0077717293955806245
+reg,CatBoost,Boosting,level_change_24h,0.031303432710913445
+reg,CatBoost,Boosting,level_max_24h,0.007715569541394556
+reg,CatBoost,Boosting,level_mean_24h,0.009396689354096079
+reg,CatBoost,Boosting,level_std_24h,0.018698911354246103
+reg,CatBoost,Boosting,level_max_72h,0.005598958708753941
+reg,CatBoost,Boosting,level_mean_72h,0.014166583811609929
+reg,CatBoost,Boosting,level_std_72h,0.03580144750884796
+reg,CatBoost,Boosting,n_obs_24h,0.009368574245059338
+reg,CatBoost,Boosting,level_to_alert_ratio,0.039326337869328536
+reg,CatBoost,Boosting,level_to_major_ratio,0.020988284832302268
+reg,CatBoost,Boosting,margin_to_alert_m,0.014844835177270031
+reg,CatBoost,Boosting,margin_to_minor_m,0.013978420569626369
+reg,CatBoost,Boosting,margin_to_major_m,0.022857972270194787
+reg,CatBoost,Boosting,basin_rain_mean_mm,0.12310202405538313
+reg,CatBoost,Boosting,basin_rain_max_mm,0.04831755274023943
+reg,CatBoost,Boosting,basin_max_alert_ratio,0.034870702586728884
+reg,CatBoost,Boosting,basin_mean_level_change,0.027475697385371305
+reg,CatBoost,Boosting,national_stations_above_alert,0.009677153017153958
+reg,CatBoost,Boosting,national_rain_mean_mm,0.06288986224500795
+reg,CatBoost,Boosting,month,0.006128069746148476
+reg,CatBoost,Boosting,hour,0.0093576390299514
+reg,CatBoost,Boosting,doy_sin,0.029943652367826385
+reg,CatBoost,Boosting,doy_cos,0.03595143291352993
+reg,CatBoost,Boosting,trend_num,0.028719615040013795
+reg,CatBoost,Boosting,unit_is_ft,0.0
+reg,CatBoost,Boosting,level_range_72h,0.013266906703677412
+reg,CatBoost,Boosting,rain_intensity_3d,0.007303599716114935
+reg,CatBoost,Boosting,season_First_inter_monsoon,0.0
+reg,CatBoost,Boosting,season_NE_monsoon,0.0006697964319973557
+reg,CatBoost,Boosting,season_SW_monsoon,0.0
+reg,CatBoost,Boosting,season_Second_inter_monsoon,0.0063147000039203635

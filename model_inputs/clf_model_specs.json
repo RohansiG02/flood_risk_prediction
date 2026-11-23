@@ -1,0 +1,118 @@
+{
+  "Persistence": {
+    "family": "Baseline",
+    "data": "raw",
+    "threshold": 1.0,
+    "params": {}
+  },
+  "Logistic Regression": {
+    "family": "Baseline",
+    "data": "scaled",
+    "threshold": 0.8876012099288114,
+    "params": {
+      "C": "1.0"
+    }
+  },
+  "Decision Tree": {
+    "family": "Baseline",
+    "data": "imputed",
+    "threshold": 0.8765981779264828,
+    "params": {
+      "max_depth": "12",
+      "min_samples_leaf": "100"
+    }
+  },
+  "Bagging (DT)": {
+    "family": "Bagging",
+    "data": "imputed",
+    "threshold": 0.49855691927058204,
+    "params": {
+      "max_samples": "0.5",
+      "min_samples_leaf": "5"
+    }
+  },
+  "Random Forest": {
+    "family": "Bagging",
+    "data": "imputed",
+    "threshold": 0.3375,
+    "params": {
+      "max_features": "sqrt",
+      "min_samples_leaf": "1",
+      "max_depth": "None"
+    }
+  },
+  "Extra Trees": {
+    "family": "Bagging",
+    "data": "imputed",
+    "threshold": 0.3025,
+    "params": {
+      "max_features": "0.5",
+      "min_samples_leaf": "1"
+    }
+  },
+  "AdaBoost": {
+    "family": "Boosting",
+    "data": "imputed",
+    "threshold": 0.7510418788214689,
+    "params": {
+      "depth": "3",
+      "n_estimators": "200",
+      "learning_rate": "0.1"
+    }
+  },
+  "HistGradientBoosting": {
+    "family": "Boosting",
+    "data": "raw",
+    "threshold": 0.7057078365589452,
+    "params": {
+      "learning_rate": "0.1",
+      "max_leaf_nodes": "15"
+    }
+  },
+  "XGBoost": {
+    "family": "Boosting",
+    "data": "raw",
+    "threshold": 0.35854801535606384,
+    "params": {
+      "max_depth": "6",
+      "learning_rate": "0.05",
+      "min_child_weight": "1"
+    }
+  },
+  "LightGBM": {
+    "family": "Boosting",
+    "data": "raw",
+    "threshold": 0.2868910378313414,
+    "params": {
+      "num_leaves": "31",
+      "learning_rate": "0.05",
+      "min_child_samples": "50"
+    }
+  },
+  "CatBoost": {
+    "family": "Boosting",
+    "data": "raw",
+    "threshold": 0.6538266348092324,
+    "params": {
+      "depth": "6",
+      "learning_rate": "0.05"
+    }
+  },
+  "Stacking (LR meta)": {
+    "family": "Stacking",
+    "data": "imputed",
+    "threshold": 0.7981311801942167,
+    "params": {
+      "cv": "StratifiedKFold(5, shuffle)",
+      "meta": "LR(C=0.01) on logits"
+    }
+  },
+  "Soft Voting": {
+    "family": "Stacking",
+    "data": "imputed",
+    "threshold": 0.34432173929042825,
+    "params": {
+      "voting": "soft"
+    }
+  }
+}

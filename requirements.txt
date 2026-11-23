@@ -1,0 +1,12 @@
+streamlit>=1.45
+plotly>=5.20
+pandas>=2.0
+numpy>=1.24
+pyarrow>=14
+catboost>=1.2
+# needed to load the trained models in dashboard/models (Trained models page, What-if model choice)
+scikit-learn==1.6.1
+lightgbm>=4.6
+xgboost>=2.1
+statsmodels>=0.14
+joblib>=1.3
