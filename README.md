@@ -18,7 +18,7 @@ Requirements: Python 3.9 or newer.
 ### 1. Get the code
 
 ```bash
-git clone https://github.com/<your-username>/flood-risk-dashboard.git
+git clone https://github.com/RohansiG02/flood-risk-dashboard.git
 cd flood-risk-dashboard
 ```
 
@@ -69,7 +69,7 @@ From the second time onwards, only step 4 is needed. On macOS or Linux, `./run_d
 
 The trained models are about 2 GB, which is too large for GitHub, so they are stored on Google Drive:
 
-**https://drive.google.com/drive/folders/1NeUGE5EKTUEzpwkt8HMZX70-MLxlu5Ph?usp=drive_link**
+**[https://drive.google.com/drive/folders/1NeUGE5EKTUEzpwkt8HMZX70-MLxlu5Ph?usp=drive_link](https://drive.google.com/file/d/155ihBRejEXY5qknzUBuQJG0MF1f7ZduK/view?usp=sharing)**
 
 Download `model.zip` and unzip it into the `models/` folder, so it looks like this:
 
